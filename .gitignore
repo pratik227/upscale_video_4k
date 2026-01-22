@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+
+# Project Specific
+# Ignore large model files
+*.pth
+*.pb
+models/*.pb
+
+# Ignore video files
+*.mp4
+*.mkv
+*.mov
+*.avi
+temp_audio.aac
+
+# Temporary files
+*.tmp
+
+
+/venv310

@@ -1,0 +1,9 @@
+torch
+torchvision
+opencv-python
+ffmpeg-python
+numpy
+tqdm
+realesrgan
+git+https://github.com/ai-forever/Real-ESRGAN.git
+huggingface-hub==0.10.1
